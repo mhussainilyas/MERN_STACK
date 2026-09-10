@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04 Lecture</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    =============================
+             ANCHOR TAG 
+    ============================= 
+    -->
+
+    <!-- Internal page link -->
+
+    <div>
+      <h1 id="top-heading">Heading</h1>
+      <a href="#top-heading">Go to Top</a>
+    </div>
+
+    <!-- Tel (phone) anchor -->
+
+    <div>
+      <a href="tel:03020133320">+92 302 0133320</a>
+    </div>
+
+    <!-- mailto (email) anchor -->
+
+    <div>
+      <a href="mailto:h3980796@gmail.com">h3980796@gmail.com</a>
+    </div>
+
+    <!-- download anchor -->
+
+    <a href="../Assets/globe.png" download>Download Image</a>
+    <a href="../Assets/REACT_PREMIUM_NOTES.pdf" download>Download PDF</a>
+
+    <!-- 
+    =============================
+        BLOCK v/s INLINE TAGS 
+    ============================= 
+    -->
+
+    <!-- Inline Tags -->
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Help</a>
+
+    <span>Haris</span>
+    <span>Hussain</span>
+    <span>Fahad</span>
+
+    <!-- block Tags -->
+
+    <p>This is paragraph 01</p>
+    <p>This is paragraph 02</p>
+
+    <div>
+      <a href="#">Home</a>
+    </div>
+    <div>
+      <a href="#">About</a>
+    </div>
+
+    <span><p>Haris</p></span>
+    <a href="#">Link</a>
+    <hr />
+
+    <!-- 
+    =============================
+            IFRAME TAG 
+    ============================= 
+    -->
+
+    <!-- Embed Google Map -->
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.649105507679!2d74.34815557537203!3d31.451325750550502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906f33f24259b%3A0xfea4bc8d3df5710d!2sIsmail%20Nagar%20Bazar%2C%20Ismail%20Nagar%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1788953715620!5m2!1sen!2s"
+      width="400"
+      height="250"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+    <hr />
+
+    <!-- Embed Youtube Video -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/IsN9sMWIb-I?si=P-6eywMaMtckmLtK"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <hr />
+
+    <!-- Embed PDF File -->
+
+    <div>
+      <iframe
+        src="../Assets/REACT_PREMIUM_NOTES.pdf"
+        width="600"
+        height="450"
+      ></iframe>
+    </div>
+
+    <!-- 
+    =============================
+            MEDIA TAGS 
+    ============================= 
+    -->
+
+    <!-- Image Tag -->
+
+    <figure>
+      <img
+        src="https://c4.wallpaperflare.com/wallpaper/666/441/256/pubg-pubh-playerunknown-s-battlegrounds-wallpaper-preview.jpg"
+        alt="PUBG Image"
+        width="400"
+      />
+      <figcaption>Downlod Pubg Mobile</figcaption>
+    </figure>
+
+    <!-- Video Tag -->
+
+    <video
+      controls
+      autoplay
+      muted
+      loop
+      width="400"
+      poster="../Assets/video-poster.avif"
+    >
+      <source src="../Assets/13974395_3840_2160_30fps.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Audio Tag -->
+
+    <audio controls autoplay muted loop>
+      <source src="../Assets/qaseeda_burda.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+</html>
